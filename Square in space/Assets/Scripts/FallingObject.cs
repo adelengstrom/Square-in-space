@@ -22,9 +22,4 @@ public class FallingObject : MonoBehaviour
         }
     }
 
-    void OnCollisionEnter2D(Collision2D col)
-    {
-        if (col.gameObject.name.Equals("Player"))
-            Debug.Log("Got you!");
-    }
 }
